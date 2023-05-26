@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    border: 1px solid gray;
+    max-width: 30px;
+    min-width: 30px;
+    padding: 0px 20px;
+}
+td{
+    border: 1px solid gray;
+    max-width: 10px;
+    min-width: 10px;
+    max-height: 10px;
+    min-height: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+td:focus{
+    outline: 2px solid rgb(79, 98, 238);
+}
+#menu-bar{
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    gap: 10px;
+}
+#cellNo{
+    border: 1px solid lightgrey;
+    padding: 2px;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+}
+#htop{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+#hbottom>a{
+    color: black;
+    text-decoration: none;
+}
+#hbottom{
+    display: flex;
+    gap: 10px;
+}
+#font-change{
+    display: flex;
+    background-color:rgb(214, 238, 253);
+    border-radius: 20px;
+    margin: 10px;
+    margin-bottom: 0px;
+    gap: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    align-items: center;
+    
+}
+#font-change>span{
+    cursor: pointer; 
+} 
+#size{
+    padding: 2px;
+}
+.color{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.colorinp{
+    display: none;
+    height: 0px;
+    width: 0px;
+    border: none;
+    padding: 0px;
+}
+.sizeFontFamily{
+    background-color:rgb(214, 238, 253);
+}
+.fileLabel{
+    border: 1px solid gray;
+    padding: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: lightgreen;
+}
+#add-sheet-btn{
+    background-color: lightgreen;
+}
+#sheet-num{
+    border: 1px solid gray;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+}
+.sheets{
+    border: 1px solid gray;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+}
